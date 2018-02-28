@@ -30,3 +30,10 @@ var domString = "<h4>" + yarn + "</h4>";
 
 var myDiv = document.getElementById('yarn-holder');
 myDiv.innerHTML = domString;
+
+// Challenge 5
+
+var string = 'IBMWLOVEbmcatsbmw';
+var noBMW = string.replace(/[BMWbmw]/g, '');
+var newString = "<h1>" + noBMW + "</h1>";
+document.getElementById("cats").innerHTML = newString;
